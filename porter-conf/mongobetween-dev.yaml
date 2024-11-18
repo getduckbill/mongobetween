@@ -1,0 +1,22 @@
+version: v2
+
+name: mongobetween-dev
+
+build:
+  context: ./
+  method: docker
+  dockerfile: ./Dockerfile
+
+services:
+  - name: main
+    type: web
+    run: 
+    instances: 1
+    cpuCores: 0.01
+    ramMegabytes: 20
+    terminationGracePeriodSeconds: 5
+    port: 27017
+    private: true
+
+autoRollback:
+  enabled: true
