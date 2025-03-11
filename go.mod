@@ -1,6 +1,6 @@
 module github.com/coinbase/mongobetween
 
-go 1.24.1
+go 1.24
 
 require (
 	github.com/DataDog/datadog-go v3.7.1+incompatible
