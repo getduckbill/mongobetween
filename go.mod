@@ -6,7 +6,7 @@ require (
 	github.com/DataDog/datadog-go v3.7.1+incompatible
 	github.com/hashicorp/go-getter v1.7.5
 	github.com/stretchr/testify v1.8.1
-	go.mongodb.org/mongo-driver v1.17.3
+	go.mongodb.org/mongo-driver v1.16.1
 	go.uber.org/zap v1.10.0
 )
 
